@@ -1,0 +1,87 @@
+<!DOCTYPE html>  
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>论坛帖子</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 20px;  
+            background-color: #f4f4f4;  
+        }  
+        .post {  
+            background-color: #fff;  
+            padding: 20px;  
+            margin-bottom: 20px;  
+            border-radius: 8px;  
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+        }  
+        .post-header {  
+            display: flex;  
+            justify-content: space-between;  
+            align-items: center;  
+            margin-bottom: 10px;  
+        }  
+        .post-header .author {  
+            font-weight: bold;  
+        }  
+        .post-header .date {  
+            color: #888;  
+        }  
+        .post-content {  
+            margin-bottom: 20px;  
+        }  
+        .reply {  
+            background-color: #fafafa;  
+            padding: 10px;  
+            margin-top: 10px;  
+            border-radius: 4px;  
+        }  
+        .reply-header {  
+            display: flex;  
+            justify-content: space-between;  
+            align-items: center;  
+            margin-bottom: 5px;  
+        }  
+        .reply-content {  
+            margin-bottom: 5px;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="post">  
+        <div class="post-header">  
+            <h1 class="title">论坛帖子标题</h1>  
+            <div class="author">作者: 张三</div>  
+            <div class="date">发布日期: 2023-10-05</div>  
+        </div>  
+        <div class="post-content">  
+            <p>这是帖子的内容部分。这里可以写一些详细的描述或者讨论的话题。</p>  
+            <p>希望大家都能够积极参与讨论！</p>  
+        </div>  
+        <div class="replies">  
+            <h2>回复</h2>  
+            <div class="reply">  
+                <div class="reply-header">  
+                    <div class="author">回复者: 李四</div>  
+                    <div class="date">回复日期: 2023-10-06</div>  
+                </div>  
+                <div class="reply-content">  
+                    <p>这是一个回复的内容。我对帖子中的观点很感兴趣。</p>  
+                </div>  
+            </div>  
+            <div class="reply">  
+                <div class="reply-header">  
+                    <div class="author">回复者: 王五</div>  
+                    <div class="date">回复日期: 2023-10-07</div>  
+                </div>  
+                <div class="reply-content">  
+                    <p>我也来回复一下。我觉得帖子中的观点很有道理。</p>  
+                </div>  
+            </div>  
+        </div>  
+    </div>  
+</body>  
+</html>
